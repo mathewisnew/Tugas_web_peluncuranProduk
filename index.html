@@ -23,6 +23,11 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- Responsive Stylesheet -->
         <link rel="stylesheet" href="css/responsive.css">
+   <!-- Tambahkan jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Tambahkan Plugin Countdown -->
+    <script src="path/to/jquery.lwtCountdown-1.0.js"></script>
+	    
     </head>
 
     <body id="body">
@@ -118,6 +123,24 @@
 	            </div><!-- .row close -->
 	        </div><!-- .container close -->
 	    </section><!-- header close -->
+<script>
+    $(document).ready(function () {
+        $('#countdown_dashboard').countDown({
+            targetDate: {
+                day: 31,
+                month: 12,
+                year: 2024,
+                hour: 23,
+                min: 59,
+                sec: 59,
+                utc: true
+            },
+            onComplete: function () {
+                alert('Countdown selesai!');
+            }
+        });
+    });
+</script>
 
 
 
