@@ -12,7 +12,7 @@ saya tambah countdown mulai
     <!-- Tambahkan Plugin Countdown -->
       
     <script src="path/to/jquery.lwtCountdown-1.0.js"></script>
-   letak: sebelum <!-- </head> -->
+   letak: sebelum /head
 lalu
               <!-- Countdown Initialization -->
 
@@ -38,7 +38,7 @@ lalu
 letak:
 setelah header close di bagian countdown, dan
 sebelum about start nikmati fitur terbaik
-(intinya sebelum <!-- </body> -->) 
+(intinya sebelum /body) 
 
 
 ketemu template dari:
