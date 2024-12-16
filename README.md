@@ -36,7 +36,7 @@ lalu
 </script>
 
 letak:
-setelah header close di bagian countdown
+setelah header close di bagian countdown, dan
 sebelum about start nikmati fitur terbaik
 (intinya sebelum </body>)
 
