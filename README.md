@@ -12,10 +12,10 @@ saya tambah countdown mulai
     <!-- Tambahkan Plugin Countdown -->
       
     <script src="path/to/jquery.lwtCountdown-1.0.js"></script>
-   letak sebelum </head>
+   letak: sebelum </head>
 lalu
-      <!-- Countdown Initialization -->
-    <script>
+              <!-- Countdown Initialization -->
+<script>
     $(document).ready(function () {
         $('#countdown_dashboard').countDown({
             targetDate: {
@@ -33,6 +33,7 @@ lalu
         });
     });
 </script>
+
 letak:
 setelah header close di bagian countdown
 sebelum about start nikmati fitur terbaik
