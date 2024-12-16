@@ -10,12 +10,12 @@ saya tambah countdown mulai
 <!-- Tambahkan jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Tambahkan Plugin Countdown -->
+      
     <script src="path/to/jquery.lwtCountdown-1.0.js"></script>
    letak sebelum </head>
 lalu
       <!-- Countdown Initialization -->
-      
-<script>
+    <script>
     $(document).ready(function () {
         $('#countdown_dashboard').countDown({
             targetDate: {
